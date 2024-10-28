@@ -18,12 +18,14 @@ This project requires Python 3.11 and uses `conda` for environment management. F
    
    ```bash
    conda activate env
-   # 필요 패키지 다운로드
+   ```
    ```bash
+   # 필요 패키지 다운로드
    pip install pycaret
    pip install stable-baselines3
-
    # 이후 각 ipynb파일 실행
+   ```
+   
 
 ## About the file
 
