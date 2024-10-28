@@ -14,7 +14,8 @@ This project requires Python 3.11 and uses `conda` for environment management. F
 
    ```bash
    conda create -n env python=3.11 jupyter
-
+   ```
+   
    ```bash
    conda activate env
    # 필요 패키지 다운로드
@@ -22,7 +23,7 @@ This project requires Python 3.11 and uses `conda` for environment management. F
    pip install pycaret
    pip install stable-baselines3
 
-# 이후 각 ipynb파일 실행
+   # 이후 각 ipynb파일 실행
 
 ## About the file
 
