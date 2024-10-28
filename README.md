@@ -15,6 +15,15 @@ This project requires Python 3.11 and uses `conda` for environment management. F
    ```bash
    conda create -n env python=3.11 jupyter
 
+   ```bash
+   conda activate env
+   # 필요 패키지 다운로드
+   ```bash
+   pip install pycaret
+   pip install stable-baselines3
+
+# 이후 각 ipynb파일 실행
+
 ## About the file
 
 1070043000_model.ipynb,1070048800_model.ipynb,1070046800_model.ipynb은 강화학습의 환경으로 작용하는 속도 예측 모델의 생성 코드
