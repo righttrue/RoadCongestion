@@ -1,0 +1,9 @@
+# 가상환경 생성
+conda create -n env python=3.11 jupyter
+# 가상환경 실행
+conda activate env
+# 필요 패키지 다운로드
+pip install pycaret
+pip install stable-baselines3
+
+# 이후 각 ipynb파일 실행
